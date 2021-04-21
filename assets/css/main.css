@@ -493,7 +493,7 @@ section.service {
     padding: 4px;
     position: absolute;
     z-index: 2;
-    top: -42px;
+    top: 0;
     max-width: 168px;
     right: 41px;
 }
@@ -518,7 +518,7 @@ section.service {
 .im-card1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .info-card-1 {
     display: flex;
@@ -531,10 +531,10 @@ section.service {
 .triangle-service {
     overflow: hidden;
     position: relative;
-    top: -75px;
-    right: -56px;
+    top: 1px;
+    right: -86px;
     display: flex;
-    height: 44vh;
+    height: 30vh;
 }
 .triangle-img {
     display: flex;
@@ -545,13 +545,20 @@ section.service {
     height: 100%;
 }
 .triangle-service img {
-    width: 214px;
+    /* width: 214px;
     transform: rotate( 
 32deg
  );
     height: 100%;
     object-fit: cover;
-    object-position: -55px -13px;
+    object-position: -55px -13px; */
+    
+    width: 215px;
+    transform: rotate( 32deg);
+    height: 100%;
+    object-fit: contain;
+    object-position: -52px -12px;
+
 }
 .button-lear a img {
     width: 13%;
@@ -593,6 +600,7 @@ div#icons-triangle h2{
 section#about {
     background: #383838;
     height: 100vh;
+    overflow: hidden;
 }
 .serv-row {
     display: flex;
@@ -621,10 +629,8 @@ section#about {
 }
 .info-about {
     flex: 0 50%;
-    padding-right: 150px;
     padding-top: 70px;
     position: relative;
-    left: -100px;
     z-index: 2;
 }
 img#abous-Us {
@@ -677,19 +683,24 @@ h3.descri-lower {
     right: 0;
     height: 92vh;
     opacity: .4;
-    transform: rotate( 
-0deg
- );
+    transform: rotate( 0deg);
 }
 .triangle-rigth img {
-    position: absolute;
+    /* position: absolute;
     height: 112vh;
     object-fit: contain;
     transform: rotate(
 76deg
 );
     right: -291px;
-    top: -19px;
+    top: -19px; */
+    position: absolute;
+    height: 99vh;
+    object-fit: contain;
+    transform: rotate( 180deg);
+    top: 15px;
+    width: 99%;
+    right: -70px;
 }
 .info-about .content-about .icons-title #icons-triangle h2 {
     color: white;
@@ -1363,3 +1374,9 @@ footer#contact {
         border-radius: 44px;
         bottom: 17pc;
     }
+
+    /*----------------------ADD NEW CSS ---------------------*/
+
+.info-card-1 p{
+    padding-top: 23px!important;
+}

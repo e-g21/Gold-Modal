@@ -8,6 +8,7 @@
     }
     .nav__menu {
         width: 100%;
+        align-items: center;
 
         }
     .nav-item {
@@ -125,11 +126,36 @@
     }
     .triangle-service img {
         object-fit: contain;
-        object-position: -8px -48px;
+        object-position: -1px 30px;
+        transform: rotate( 271deg);
     }
+    div#description-about {
+        padding: 20px;
+    }
+    .container.container-1.container.container-1{
+        align-items: center;
+    }
+.header-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
     .triangle-service {
         right: 0px;
 
+        }
+
+
+.i-lower {
+    padding-left: 0;
+}
+        #about > div > div.info-about > div > div.icons-title > h3, div#description-about, .i-lower{
+          
+            text-align: center;
+        }
+        section.new-letter .row .col-md-6{
+            padding-top: 0;
         }
     /*ABOUT US*/
     .triangle-rigth img {
@@ -178,14 +204,14 @@
         padding-left: 0;
     }
     .img-clients {
-        height: 25vh;
+        height: 20vh;
         width: 25vh;
     }
     .content-img {
         width: 100%;
     }
     .text-name {
-        margin-left: -6pc;
+        margin-left: 0pc;
         width: 70%;
     }
     .p {
@@ -307,6 +333,43 @@ section.new-letter {
         bottom: -1pc;
     }
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+
+.new-letter {
+ 
+    height: 35vh;
+}
+.im-card1 {
+
+    width: 311px;
+}
+
+.fixed-me .container.container-1{
+    align-items: center;
+}
+a.logo-main {
+    width: 33%;
+}
+.triangle-service img {
+ display: none;
+}
+section#benefits {
+
+    height: 67vh;
+}
+
+section#about {
+
+    height: 58vh;
+
+}
+
+section.service {
+    height: 128vh;
+}
+}
+
 @media only screen and (min-width:1025px) and (max-width:1440px) {
     /*BANNER*/
     .container.container-2 {
