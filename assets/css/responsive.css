@@ -1,0 +1,334 @@
+@media only screen and (min-width:0px) and (max-width:500px) {
+    
+    a.logo-main {
+        width: 70%;
+    }
+    .fixed-me .container.container-1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container.container-2 {
+        flex-direction: column;
+    }
+    .container.container-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .icons-header{
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    }
+    .H-description {
+        height: 50%;
+        bottom: 0;
+        justify-content: flex-end;
+    }
+    .formule {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .triangles-header-right{
+        width: 100%;
+    }
+    .T1,.T-2,.T-3,.T-4,.T5{
+        height: 45vh;
+        width: 45vh;
+        transform: rotate(82deg);
+    } 
+    .T1 {
+    top: 27pc;
+    right: 4pc;
+    }
+    .T-2 {
+    top: 3pc;
+    right: 2pc;
+    }
+    .T-3{
+    top: -21pc;
+    right: 0;
+    }
+    .T-4{
+        top: -45pc;
+        right: -3pc;
+    }
+    .T5{
+    transform: rotate3d(7, -1, 5, -22deg);
+    top: -114pc;
+    right: -4pc;
+    }
+    /*ICONS CLIENTS*/
+    .container.container-c {
+        flex-direction: column;
+    }
+    .title-clients {
+        position: relative;
+    }
+    .icons-clients{
+        justify-content: center;
+    }
+    .icon-c{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    /*SERVICE*/
+    section.service {
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .container.flex-service {
+        flex-direction: column;
+    }
+    .row.row-s1, .row-s2 {
+        width: 100%;
+        align-items: center;
+    }
+    .servi-left{
+        padding: 0;
+    height: auto;
+    padding-bottom: 75px;
+    padding-top: 35px;
+    }
+    .triangle-service img {
+        object-fit: contain;
+    }
+    /*ABOUT US*/
+    .triangle-rigth img {
+        height: 55vh;
+        transform: rotate( 76deg);
+        right: -19pc;
+        top: 29pc;
+    }
+    .triangle-rigth {
+    overflow: hidden;
+    width: 100%;
+    }
+    .serv-row {
+        flex-direction: column;
+    }
+    section#about {
+        height: auto;
+    }
+    .info-about {
+        padding-right: 0;
+        width: 100%;
+        max-width: 100%;
+        flex: auto;
+        left: 0;
+        padding-top: 35pc;
+    }
+    .btn-read {
+        height: 135px;
+    }
+    div#description-about p {
+        margin: 0!important;
+    }
+    .text-certificatess {
+        top: 30pc;
+        margin-left: 15pc;
+    }
+    /*BENEFITS*/
+    section#benefits {
+        height: auto;
+    }
+    .triangles-b1 {
+        flex-direction: column;
+    }
+    /*rEVIEWS*/
+    .testimonio {
+        padding-left: 0;
+    }
+    .img-clients {
+        height: 25vh;
+        width: 25vh;
+    }
+    .content-img {
+        width: 100%;
+    }
+    .text-name {
+        margin-left: -6pc;
+        width: 70%;
+    }
+    .p {
+        position:inherit;
+        width: auto;
+        margin-left: 0;
+        margin-top: 5pc;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+    right: 15px;
+    height: 50px;
+    width: 50px;
+    background-size: 38px;
+    }
+    button.slick-next.slick-arrow {
+    top: 27pc;
+    transform: inherit;
+}
+button.slick-prev.slick-arrow {
+    display: none !important;
+}
+.btn-reviews {
+    top: -13px;
+    padding-right: 103px;
+}
+.reviws .triangles-icons {
+    flex: 0 8%;
+}
+.triangle-r-i {
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.triangle-r-i {
+    width: 100%;
+    height: 112.4vh;
+}
+.t-r-1 {
+    width: 107%;
+    height: 111vh;
+    left: -15pc;
+    top: 3pc;
+}
+.t-r-2 {
+    left: -18pc;
+    top: -57.6pc;
+}
+.t-r-3 {
+    left: -25.6pc;
+    top: -114.6pc;
+}
+.div-t-4-r {
+    left: -74px;
+    top: 721px;
+    width: 13vh;
+}
+h3.title-i {
+    margin-left: 0;
+}
+.responsive.slick-initialized.slick-slider.slick-dotted {
+    width: 100%!important;
+    height: 30vh!important;
+    padding-top: 120px;
+    padding-bottom: 42px;
+}
+h3.title-i {
+    width: 100%;
+    align-items: baseline;
+    margin-top: 17px;
+    justify-content: center;
+    color: #bd980c;
+    font-size: 34px;
+}
+section.new-letter {
+    background-size: 123vh;
+    background-position: center;
+}
+.triangles-icons {
+    flex: 0 11%;
+}
+.mask-input #icons-triangle h2 {
+    margin-left: 40px;
+}
+/*FOOTER*/
+.img-contact {
+    width: 75%;
+}
+.contact-i {
+    height: 25vh;
+}
+.footer-menu .row {
+    flex-direction: column;
+    justify-content: center;
+}
+.col-4.ul-page, .col-4.ul-contact, .col-4.img-logo{
+    max-width: 100%;
+    width: 100%;
+}
+.copyrigth img {
+    width: 25%;
+}
+.triangles-footer {
+    width: 100%;
+    }
+    .t-f1 {
+        height: 70vh;
+        right: -8pc;
+        bottom: -35pc;
+    }
+    .t-f2 {
+        right: -16pc;
+        bottom: -1pc;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    /*BANNER*/
+    .container.container-2 {
+        padding-left: 75px;
+        padding-right: 80px;
+    }
+    .icons-header {
+    position: absolute;
+    }
+    .H-description {
+        height: 100%;
+        justify-content: center;
+    }
+    .triangles-header-right {
+        width: 55%;
+        }
+    .T1, .T-2, .T-3, .T-4 {
+        height: 120vh;
+        width: 120vh;
+        transform: rotate(45deg);
+    }
+    .T5{
+    height: 50vh;
+    width: 50vh;
+    transform: rotate3d(7, -1, 5, -51deg);
+    }
+    .T1{
+        top: -8pc;
+    right: -2pc;
+    }
+    .T-2{
+    top: -54pc;
+    right: -5pc;
+    }
+    .T-3{
+    top: -100pc;
+    right: -9pc;
+    }
+    .T-4{
+        top: -146pc;
+    right: -12pc;
+    }
+    .T5{
+    top: -194pc;
+    right: -15pc;
+    }
+    .title-clients {
+    position: absolute;
+    }
+    .icons-clients {
+    justify-content: flex-end;
+    }
+    .icon-c {
+    max-width: 10%;
+    margin-left: 50px;
+    }
+   
+}
