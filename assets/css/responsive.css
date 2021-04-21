@@ -125,6 +125,7 @@
     }
     .triangle-service img {
         object-fit: contain;
+        object-position: -8px -48px;
     }
     .triangle-service {
         right: 0px;
