@@ -98,6 +98,10 @@
     .triangle-service img {
         object-fit: contain;
     }
+    .triangle-service {
+        right: 0px;
+
+        }
     /*ABOUT US*/
     .triangle-rigth img {
         height: 55vh;
