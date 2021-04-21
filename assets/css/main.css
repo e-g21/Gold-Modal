@@ -273,7 +273,7 @@ a.logo-main {
     .responsive-menu-btn > svg.open {
     
     height: 55px;
-    fill: #ff9100;
+    fill: #bd980c;
     }
     .responsive-menu-btn > svg.close {
     position: relative;
@@ -282,7 +282,7 @@ a.logo-main {
     left: 0;
     
     height: auto;
-    fill:  #ff9100; }
+    fill:  #bd980c; }
     .responsive-menu-btn.--is-open svg.close {
     visibility: visible;
     animation: XrotateScaleFadeIn 0.37s ease forwards;
@@ -303,7 +303,6 @@ a.logo-main {
     top: 0;
     background: #fff;
     left: 0;
-    width: 120%;
     height: 100vh;
     justify-content: center;
     transform: translate(-100%, 0);
