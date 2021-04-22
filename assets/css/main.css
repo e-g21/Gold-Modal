@@ -35,7 +35,7 @@ div#icons-triangle h2{
 div#icons-triangle h2,  .a-font, a, .text-certificatess h2, h3.text-minus, .conten-minus h4, .content-img h3, .title-clients h2, h1, .formule h3, h3.title-i,  ul h2{
     font-family: "HANDGOTN";
 }
-.icons-title h3, .h2-card1 h2, p, h3.descri-lower, .text-certificatess h3, .text-name h5, ::-webkit-input-placeholder,.H-description h5, .icons-header h3,{
+.icons-title h3, .h2-card1 h2, p, h3.descri-lower, .text-certificatess h3, .text-name h5, ::-webkit-input-placeholder,.H-description h5, .icons-header h3{
     font-family: "RockfordSans-Light";
 }
 /*-----------HOVER----------*/
@@ -77,7 +77,7 @@ div#icons-triangle h2,  .a-font, a, .text-certificatess h2, h3.text-minus, .cont
     transition: .3s;
 }
 header.header__main.navbar-me.back {
-    height: 90vh;
+    height: 100vh;
     position: relative;
     justify-content: center;
     display: flex;
@@ -493,7 +493,7 @@ section.service {
     padding: 4px;
     position: absolute;
     z-index: 2;
-    top: 0;
+    top: 26px;
     max-width: 168px;
     right: 41px;
 }
@@ -514,11 +514,15 @@ section.service {
 .card-1 {
     position: relative;
     height: 100%;
+    padding-top: 17px;
 }
 .im-card1 {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 20px; */
+    height: 74%;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 .info-card-1 {
     display: flex;
@@ -530,18 +534,20 @@ section.service {
 }
 .triangle-service {
     overflow: hidden;
-    position: relative;
-    top: 1px;
-    right: -86px;
+    position: ABSOLUTE;
+    top: 0;
+    right: -55px;
     display: flex;
     height: 30vh;
 }
+
+
 .triangle-img {
     display: flex;
-    position: relative;
+    position: RELATIVE;
     right: 0;
     justify-content: flex-end;
-    top: -1px;
+    top: 15px;
     height: 100%;
 }
 .triangle-service img {
@@ -554,10 +560,12 @@ section.service {
     object-position: -55px -13px; */
     
     width: 215px;
-    transform: rotate( 32deg);
+    transform: rotate( 
+32deg
+);
     height: 100%;
     object-fit: contain;
-    object-position: -52px -12px;
+    object-position: -17px -17px;
 
 }
 .button-lear a img {
@@ -600,7 +608,6 @@ div#icons-triangle h2{
 section#about {
     background: #383838;
     height: 100vh;
-    overflow: hidden;
 }
 .serv-row {
     display: flex;
@@ -684,6 +691,7 @@ h3.descri-lower {
     height: 92vh;
     opacity: .4;
     transform: rotate( 0deg);
+    overflow: hidden;
 }
 .triangle-rigth img {
     /* position: absolute;
@@ -701,6 +709,7 @@ h3.descri-lower {
     top: 15px;
     width: 99%;
     right: -70px;
+    overflow: hidden;
 }
 .info-about .content-about .icons-title #icons-triangle h2 {
     color: white;
@@ -1378,5 +1387,5 @@ footer#contact {
     /*----------------------ADD NEW CSS ---------------------*/
 
 .info-card-1 p{
-    padding-top: 23px!important;
+    padding-top: 80px;
 }
