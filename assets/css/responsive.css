@@ -55,10 +55,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
     .triangles-header-right{
-        width: 100%;
-        height: 65vh;
+    width: 100%;
+    height: 100%;
     bottom: 0;
     }
     .T1,.T-2,.T-3,.T-4,.T5{
@@ -67,25 +68,44 @@
         transform: rotate(82deg);
     } 
     .T1 {
-        top: 8pc;
-        right: -4pc;
+        bottom: 14px;
+    position: absolute;
     }
     .T-2 {
-        top: -5pc;
-        right: -6pc;
+        position: absolute;
+        bottom: 2px;
+        right: -120px;
     }
     .T-3 {
-        top: -18pc;
-        right: -7pc;
+        position: absolute;
+        bottom: -32px;
+        right: -153px;
     }
     .T-4 {
-        top: -31pc;
-        right: -9pc;
+        position: absolute;
+    bottom: -75px;
+    right: -191px;
     }
     .T5{
-    transform: rotate3d(7, -1, 5, -22deg);
-    top: -114pc;
-    right: -4pc;
+        transform: rotate3d(7, -1, 5, 
+-22deg
+ );
+    top: -226px;
+    right: -157px;
+    position: absolute;
+    }
+    .responsive-menu-btn > svg.open{
+        fill: white;
+    }
+    .formule h3 {
+        font-size: 23px;
+        color: white;
+        margin-bottom: 50px;
+    }
+    img#triangle-about {
+        top: 283px;
+    left: -25px;
+    width: 51%;
     }
     /*ICONS CLIENTS*/
     .container.container-c {
@@ -116,6 +136,7 @@
     }
     .container.flex-service {
         flex-direction: column;
+        align-items: center;
     }
     .row.row-s1, .row-s2 {
         width: 100%;
@@ -127,27 +148,22 @@
         width: 100%;
     }
     .im-card1 {
-        height: auto;
+        height: 100%;
     }
     .info-card-1 {
         padding-top: 75px;
         justify-content: center;
         align-items: center;
+        margin-right: 90px;
     }
     .button-lear {
         left: 0;
+        bottom: 0;
     }
     img#img-service--card {
-        max-width: 145px;
-        margin-top: 30px;
-        right: 41px;
-    }
-    .triangle-service img {
-        object-fit: contain;
-        object-position: 36px 102px;
-        transform: rotate( 271deg);
-        height: 40vh;
-        width: 293px;
+        max-width: 159px;
+    margin-top: -7px;
+    right: 65px;
     }
     
     div#description-about {
@@ -162,23 +178,18 @@
     object-fit: cover;
     object-position: left;
 }
-    .triangle-service {
-        right: 0px;
-        height: 275px;
-    }
-
-        .triangle-service {
-            right: 0px;
-            height: 293px;
-        }
-        .text-certificatess h2, .H-description h1, .icons-header h3, .icons-header i {
-            color: white;
-            text-align: center;
-        }
-        .button-lear a, .icons-title h3, .text-certificatess h3, .H-description h5 {
-            color: #bd980c;
-            text-align: center;
-        }
+.triangle-service {
+right: 0px;
+ height: 293px;
+}
+.text-certificatess h2, .H-description h1, .icons-header h3, .icons-header i {
+color: white;
+text-align: center;
+}
+.button-lear a, .icons-title h3, .text-certificatess h3, .H-description h5 {
+color: #bd980c;
+text-align: center;
+}
 
 .i-lower {
     padding-left: 0;
@@ -222,8 +233,12 @@
         margin: 0!important;
     }
     .text-certificatess {
-        top: 30pc;
-        margin-left: 1pc;
+        
+    top: 458px;
+    margin-left: 1pc;
+    }
+    .triangle-r-i {
+        display: none;
     }
     /*BENEFITS*/
     section#benefits {
@@ -237,15 +252,20 @@
         padding-left: 0;
     }
     .img-clients {
-        height: 20vh;
+        height: 25vh;
         width: 25vh;
+    }
+    .one-time{
+        height: inherit!important;
     }
     .content-img {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
     .text-name {
-        margin-left: 0pc;
-        width: 70%;
+        margin-left: 0;
+        width: 100%;
     }
     .p {
         position:inherit;
@@ -426,11 +446,6 @@ left: 0px;
     flex-direction: column;
     width: 50%;
     justify-content: flex-end;
-}
-.triangle-service img {
-    object-position: -4px -27px;
-    width: 240px;
-    
 }
 
 .info-card-1 p {

@@ -528,15 +528,14 @@ section.service {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    flex: 0 45%;
+    flex: 0 50%;
     padding-left: 10px;
-    position: relative;
 }
 .triangle-service {
     overflow: hidden;
     position: ABSOLUTE;
     top: 0;
-    right: -55px;
+    right:0;
     display: flex;
     height: 30vh;
 }
@@ -549,23 +548,11 @@ section.service {
     justify-content: flex-end;
     top: 15px;
     height: 100%;
+    flex: 0 50%;
 }
 .triangle-service img {
-    /* width: 214px;
-    transform: rotate( 
-32deg
- );
-    height: 100%;
-    object-fit: cover;
-    object-position: -55px -13px; */
-    
     width: 215px;
-    transform: rotate( 
-32deg
-);
     height: 100%;
-    object-fit: contain;
-    object-position: -17px -17px;
 
 }
 .button-lear a img {
@@ -1382,6 +1369,7 @@ footer#contact {
         position: relative;
         border-radius: 44px;
         bottom: 17pc;
+
     }
 
     /*----------------------ADD NEW CSS ---------------------*/
