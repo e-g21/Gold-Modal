@@ -32,7 +32,7 @@ a:hover{
 div#icons-triangle h2{
     color:#383838;
 }
-div#icons-triangle h2,  .a-font, a, .text-certificatess h2, h3.text-minus, .conten-minus h4, .content-img h3, .title-clients h2, h1, .formule h3, h3.title-i,  ul h2{
+div#icons-triangle h2,  .a-font, a, .text-certificatess h2, h3.text-minus, .conten-minus h4, .content-img h3, .title-clients h2, h1, .formule h3, h3.title-i,  ul h2, h5.card-title,.title-contact h3, .fill-b h4{
     font-family: "HANDGOTN";
 }
 .icons-title h3, .h2-card1 h2, p, h3.descri-lower, .text-certificatess h3, .text-name h5, ::-webkit-input-placeholder,.H-description h5, .icons-header h3{
@@ -42,8 +42,13 @@ div#icons-triangle h2,  .a-font, a, .text-certificatess h2, h3.text-minus, .cont
 .lower-1:hover {
     zoom: 1.1;
 }
-
 /*HEADER*/
+.height-agg{
+    height: 60vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
 .header-info:before {
     content: "";
     position: absolute;
@@ -519,7 +524,7 @@ section.service {
 .im-card1 {
     display: flex;
     justify-content: space-between;
-    height: 74%;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -530,6 +535,7 @@ section.service {
     align-items: flex-end;
     flex: 0 50%;
     padding-left: 10px;
+    padding-right: 20px;
 }
 .triangle-service {
     overflow: hidden;
@@ -556,8 +562,7 @@ section.service {
 
 }
 .button-lear a img {
-    width: 13%;
-    margin-left: 15px;
+    width: 7%;
 }
 .button-lear {
     position: absolute;
@@ -565,6 +570,7 @@ section.service {
     width: 100%;
     bottom: -16px;
     text-align: center;
+    z-index: 9;
 }
 div#icons-triangle {
     display: flex;
@@ -672,6 +678,7 @@ h3.descri-lower {
     padding-left: 35px;
 }
 .triangle-rigth {
+    top: 0;
     position: absolute;
     width: 52%;
     right: 0;
@@ -1376,4 +1383,469 @@ footer#contact {
 
 .info-card-1 p{
     padding-top: 80px;
+}
+/*--------------------------SECTION ABOUT EXPERIENCE---------------------------*/
+.img-icon-experience {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img#fa-triangle {
+    width: 50%;
+}
+.img-icon-experience i{
+    font-size: 75px;
+    position: absolute;
+    background: #383838;
+    color: white;
+    border-radius: 69px;
+    padding: 17px 5px 8px 8px;
+    width: 130px;
+    height: 130px;
+    border: 8px solid white;
+    left: 75px;
+}
+.card {
+    background-color: transparent;
+    border: 1px solid rgb(189 152 12);
+    height: 100%;
+}
+.card-body{
+    text-align: center;
+}
+section.experience {
+    padding-bottom: 125px;
+    padding-top: 100px;
+}
+sectiton.owners {
+    position: relative;
+}
+.img-owners {
+    border-radius: 55%;
+    height: 80vh;
+    position: absolute;
+    top: -75px;
+}
+.img-owners img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 14px solid #383838;
+}
+.col-md-6.fila-1 {
+    padding: 80px 25px 25px 0px;
+}
+/*--------------------TEXT-ABOUT-----------------------*/
+section.text-owners:before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/MEDALLA-GRIS-2.png");
+    background-repeat: repeat;
+    background-size: 250px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+section#about-1 {
+    background: #383838;
+    height: 120vh;
+}
+#about-1 .triangle-rigth {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    right: -126px;
+    height: 100%;
+    opacity: .4;
+    transform: rotate( 
+0deg
+);
+    overflow: hidden;
+}
+#about-1 .triangle-rigth img {
+    position: absolute;
+    height: 100%;
+    object-fit: contain;
+    transform: rotate( 
+180deg
+);
+    top: 0;
+    right: -52px;
+}
+/*-----SECTION CONTACT----------*/
+#contact--header {
+    height: 60vh;
+    margin-bottom: 100px;
+}
+.contact-herader{
+    width: 100%;
+    object-fit: cover;
+}
+.contact-herader h4 {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    font-size: 40px;
+    font-family: "HANDGOTN";
+    text-transform: uppercase;
+    color: white;
+}
+.contact-herader img {
+    object-fit: cover;
+    object-position: center top;
+}
+.contact-herader:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0000008f;
+    position: absolute;
+}
+section.contact {
+    padding-bottom: 100px;
+}
+.input-1 input, .input-1 textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #383838;
+}
+section.contact > div > div > div.col.md-6 > div > div.button-lear {
+    position: relative;
+    left: 0;
+}
+.input-1 {
+    margin-bottom: 18px;
+}
+.fill-b {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+section.contact > div > div > div.col.md-6 > div > div.button-lear img {
+    width: 25px;
+    margin-left: -2px;
+}
+.from {
+    padding: 0 60px;
+}
+img.contact-t {
+    position: absolute;
+    top: 101px;
+    left: -70px;
+    width: 30%;
+    opacity: .2;
+    transform: rotate(-14deg);
+}
+img.contact-t1 {
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+    opacity: 0.4;
+    z-index: 1;
+}
+.title-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.title-contact span i {
+    font-size: 70px;
+}
+.fill-a > div > span > i:nth-child(1) {
+    color: #383838;
+}
+.fill-a > div > span > i:nth-child(2) {
+    color: #bd980c;
+}
+.fill-a > div > span > i:nth-child(3) {
+    color: #5e5e5e;
+}
+.title-contact h3 {
+    font-size: 30px;
+    color: #bd980c;
+    margin-left: 15px;
+}
+.fill-b h4 {
+    font-size: 35px;
+    margin-bottom: 33px;
+    color: #383838;
+}
+.fill-b h4 span{
+    color: #bd980c;
+}
+.contact-t3 {
+    color: #bd980c;
+    font-size: 450px;
+    position: absolute;
+    top: -120px;
+    left: 1px;
+    transform: rotate(
+-16deg
+);
+}
+/*--------------areas server-------------*/
+section.Help {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+h3.titulo-help {
+    text-align: center;
+}
+.color-help {
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #bd980c;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    padding: 18px;
+    border: 3px solid white;;
+}
+.color-help a {
+    color: white;
+    font-size: 19px;
+    position: relative;
+}
+.color-help img {
+    filter: brightness(0.5);
+    position: absolute;
+    width: 165px;
+    left: -30px;
+    z-index: -1;
+}
+section.Help > div.container > div:nth-child(1) {
+    padding-bottom: 80px;
+}
+section.Help > div.container > div:nth-child(2) .col-md-3 {
+    justify-content: center;
+    display: flex;
+}
+h3.titulo-help span {
+    font-size: 70px;
+    margin-right: 6px;
+}
+h3.titulo-help {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #383838;
+}
+section.Help > div.container > div:nth-child(1) p {
+    padding: 0px 35px;
+}
+section.Help > div.container > div:nth-child(1) > h3 > span > i:nth-child(1) {
+    color: #383838;
+}
+section.Help > div.container > div:nth-child(1) > h3 > span > i:nth-child(2){
+color: #bd980c;
+}
+section.Help > div.container > div:nth-child(1) > h3 > span > i:nth-child(3){
+    color: #5e5e5e;
+}
+/*------------PAGE Air hc--------*/
+section.info-a {
+    padding: 100px 0px;
+}
+div#col-12-air {
+    display: flex;
+}
+div#col-12-air .col-md-3 {
+    position: relative;
+    margin: 1px 10px;
+}
+img.T-icons-air {
+    position: absolute;
+    width: 27%;
+    bottom: 19px;
+    opacity: .2;
+    left: 86px;
+    transform: rotate3d(1, 1, 1, 
+0deg
+);
+}
+.info-sub-service h3 {
+    font-size: 17px;
+    font-family: 'HANDGOTN';
+    margin-bottom: 35px;
+}
+.ir {
+    text-align: end;
+}
+.ir a {
+    color: #bd980c;
+}
+.col-6.info-sub-service {
+    padding: 30px 85px;
+}
+.info-extra {
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.row.service-commercial {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.row.service-commercial .col-4 {
+    padding: 0 60px;
+}
+.service-commercial img.T-icons-air {
+    left: 60px;
+    width: 40%;
+}
+nav.nav__menu ul {
+    margin: 0;
+}
+::-webkit-scrollbar-track
+{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #383838;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    max-width: 8px;
+}
+::-webkit-scrollbar
+{
+    width: 8px;
+    max-width: 8px;
+    height: auto;
+    max-height: 8px;
+}
+a
+{
+    text-decoration: none;
+}
+.L
+{
+  float:left;
+}
+ul{
+    padding: 0;
+}
+.first:hover
+{
+    cursor: pointer;
+    padding-bottom: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.first:hover ul,.skin
+{
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: -5px;
+    z-index: 90;
+    width: 250px;
+    max-width: 250px;
+}
+.first ul
+{
+    position: absolute;
+    width: auto;
+    background-color: #00000057;
+    display: none;
+    top:33px;
+}
+.first ul li
+{
+    padding-right: 5px;
+    padding-left: 0px;
+    margin-bottom: 1px;
+}
+.first ul li:hover
+{
+    padding-right: 0px;
+    padding-left: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #8f7102a8;
+    border-left: 4px solid #fff;
+}
+.first ul li:hover a
+{
+    color: #fff;
+}
+.first ul a, .first ul li
+{
+    font-size: 15px;
+    line-height: 30px;
+}
+.first:nth-child(1) ul
+{
+    padding:0;
+}
+.first:last-child ul
+{
+    margin-left: -52px;
+}
+@media screen and (max-width:655px)
+{
+  .menu
+  {
+    background-color:#1D4B70;
+    height:auto;
+    background-image:none;
+    display:none;
+  }
+  .L
+  {
+    float:none;
+    clear:both;
+    width:100%;
+    text-align:center;
+  }
+  .first ul
+  {
+    position:static;
+    width:100%;
+  }
+  .first:hover ul
+  {
+    display:none;
+    width:100%;
+    max-width:100%;
+  }
+.clickable
+  {
+    background-image:url("http://dc369.4shared.com/img/RAxWhDgy/s3/140f9ba8408/reorder.png");
+    background-color:#1D4B70;
+    width:40px;
+    height:40px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+    z-index: 999;
+  }
 }

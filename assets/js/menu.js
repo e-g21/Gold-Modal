@@ -1,4 +1,4 @@
-const responsiveBtnIcon = document.querySelector(".responsive-menu-btn");
+/* const responsiveBtnIcon = document.querySelector(".responsive-menu-btn");
 const navMenu = document.querySelector(".nav__menu");
 
 responsiveBtnIcon.addEventListener("click", () => {
@@ -43,3 +43,19 @@ $(function () {
   });
 });
 
+ */
+$(".clickable").click(function(){
+  $(".menu").slideToggle(400);
+});
+$(".first").click(function(){
+  $(this).find("ul").slideToggle(400);
+});
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('.header__main').addClass("fixed-me");
+    } else {
+      $(".header__main").removeClass("fixed-me");
+    }
+  });
+});
